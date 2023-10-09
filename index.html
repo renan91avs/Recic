@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo de ReciclaKids</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Jogo ReciclaKids</h1>
+
+    <div id="game-container">
+      <div class="trash-can plastic">
+        <h2>Lixeira de Plástico</h2>
+        <img src="imagem\lixeirara VERMELHA.png" alt="plastico">
+      </div>
+      <div class="trash-can paper">
+        <h2>Lixeira de Papel</h2>
+        <img src="imagem\lixeirara AZUL.png" alt="papel">
+      </div>
+      <div class="trash-can metal">
+        <h2>Lixeira de Metal</h2>
+        <img src="imagem\lixeirara AMARELA.png" alt="metal">
+      </div>
+      <div class="trash-can organic">
+        <h2>Lixeira de Orgânico</h2>
+        <img src="imagem\lixeirara MARROM.png" alt="organico">
+      </div>
+      <div class="trash-can glass">
+        <h2>Lixeira de vidro</h2>
+        <img src="imagem\lixeirara VERDE.png" alt="vidros">
+      </div>
+
+      <div class="trash" data-trash-type="plastic" draggable="true">
+        <h3>Garrafa de Plástico</h3>
+        <img src="/imagem/sacolaplastico.png" alt="">
+      </div>
+      <div class="trash" data-trash-type="paper" draggable="true">
+        <h3>Jornal</h3>
+        <img src="/imagem/papelamaçadoCORTE.png" alt="">
+      </div>
+      <div class="trash" data-trash-type="metal" draggable="true">
+        <h3>Lata de Metal</h3>
+        <img src="/imagem/metalCORTE.png" alt="">
+      </div>
+      <div class="trash" data-trash-type="organic" draggable="true">
+        <h3>Restos Orgânicos</h3>
+        <img src="/imagem/BANANAfundo.png" alt="">
+      </div>
+      <div class="trash" data-trash-type="glass" draggable="true">
+        <h3>vidro</h3>
+        <img src="/imagem/garrafavidroCORTE.png" alt="">
+      </div>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>

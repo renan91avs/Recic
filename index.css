@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("/imagem/WhatsApp Image 2023-09-18 at 21.47.35.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+#game-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0);
+}
+
+.trash-can {
+  display: block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  margin: 10px; /* Adicione margem para espaçamento entre as lixeiras */
+}
+
+.trash-can img {
+  display: block;
+  width: 250px; /* Defina o tamanho padrão das imagens das lixeiras */
+  height: 250px; /* Defina o tamanho padrão das imagens das lixeiras */
+  border: 0px solid #000;
+  filter: grayscale(5%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.trash {
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-color: #eee;
+  border: 0px solid #dd4e4e;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;  
+  background-color: transparent;
+}
+
+.trash img {
+  display: block;
+  width: 80px; /* Defina o tamanho padrão das imagens dos lixos */
+  height: 80px; /* Defina o tamanho padrão das imagens dos lixos */
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+  
+  .trash-can.plastic {
+    position: absolute;
+    top: 400px; /* Ajuste a distância do topo */
+    left: 0px; /* Ajuste a distância da esquerda */
+  }
+  
+  .trash-can.paper {
+    position: absolute;
+    top: 270px; /* Ajuste a distância do topo */
+    left: 170px; /* Ajuste a distância da esquerda */
+  }
+  
+  .trash-can.metal {
+    position: absolute;
+    bottom: 170px; /* Ajuste a distância do fundo */
+    right: 130px; /* Ajuste a distância da esquerda */
+  }
+  
+  .trash-can.organic {
+    position: absolute;
+    bottom: 50px; /* Ajuste a distância do fundo */
+    right: -30px; /* Ajuste a distância da direita */
+  }
+  
+  .trash-can.glass {
+    position: absolute;
+    top: 160px; /* Ajuste a distância do topo */
+    right: 300px; /* Ajuste a distância da esquerda */
+  }
+ 
+  
+  
